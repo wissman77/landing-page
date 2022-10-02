@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   margin: 0;
@@ -18,9 +18,11 @@ body {
   align-items: center;
 }
 
-.navbar, footer {
+/* HEADER */
+
+.navbar, footer, .intro {
   background-color: #1f2937;
-  color: #fff;
+  color: #f9faf8;
 }
 
 .navbar .container{
@@ -42,4 +44,41 @@ body {
 .links a{
   text-decoration: none;
   color: #fff;
+}
+
+/* INTO  */
+
+.intro .container{
+  min-height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo {
+  max-width: 500px;
+}
+
+.promo h1 {
+  font-size: 48px;
+}
+
+.promo p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 0;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.intro img {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
 }
