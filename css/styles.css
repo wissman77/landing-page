@@ -82,3 +82,36 @@ body {
   border: 3px solid #3882f6;
   border-radius: 10px;
 }
+
+/* INFO */
+
+.info .container {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  flex: 0 0 150px;
+  text-align: center;
+  color:#1f2937;
+}
+
+.box img {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
