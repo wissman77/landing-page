@@ -196,6 +196,12 @@ footer {
 
 /* media queries */
 @media(max-width: 760px) {
+  .navbar .container {
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 120px;
+  }
+
   .intro .container {
     flex-direction: column;
     justify-content: space-between;
