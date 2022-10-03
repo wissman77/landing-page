@@ -86,7 +86,7 @@ body {
 /* INFO */
 
 .info .container {
-  min-height: 500px;
+  min-height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,3 +115,41 @@ body {
   border: 3px solid #3882f6;
   border-radius: 10px;
 }
+
+.box p {
+  margin-top: 10px;
+}
+
+/* TESTIMONIAL */
+
+.testimonial {
+  background-color: #e5e7eb;
+}
+
+.testimonial .container {
+  min-height: 400px;
+  max-width: 760px;
+}
+
+.testimonial figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.testimonial p {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.testimonial figcaption {
+  align-self: flex-end;
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+
