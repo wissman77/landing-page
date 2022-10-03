@@ -103,6 +103,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 50px;
 }
 
 .box {
@@ -191,4 +192,53 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* media queries */
+@media(max-width: 760px) {
+  .intro .container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 500px;
+    text-align: center;
+  }
+
+  .intro {
+    min-height: 550px;
+  }
+
+  .promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .promo h1 {
+    text-align: center;
+  }
+
+  .info .container {
+    flex-direction: column;
+    min-height: 600px;
+  }
+
+  .boxes {
+    flex-wrap: wrap;
+  }
+
+  #signup .container {
+    min-height: 400px;
+  }
+  
+  .signup-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 160px;
+    min-width: 70%;
+    text-align: center;
+    padding: 20px 50px;
+  }
 }
