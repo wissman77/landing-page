@@ -167,17 +167,28 @@ body {
   justify-content: space-between;
   min-width: 100%;
   background-color: #3882f6;
-  color: #e5e7eb;
+  color: #fff;
   padding: 50px 120px;
   border-radius: 10px;
+}
+
+.signup p {
+  color: #e5e7eb;
 }
 
 .signup-inverted {
   font-weight: bold;
   font-size: 18px;
   background: #3882f6;
-  color: #e5e7eb;
-  border: 2px solid #e5e7eb;
+  color: #fff;
+  border: 2px solid #fff;
   padding: 10px 30px;
   border-radius: 5px;
+}
+
+footer {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
